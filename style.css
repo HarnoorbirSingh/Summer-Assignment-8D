@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #1d1c1e;
+    width: 100%;
+    height: 50px;
+  }
+nav ul li {
+    display: inline;
+    
+}
+.tag {
+    color: white;
+    position: relative;
+    font-size: 19px;
+    cursor: pointer;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-right: 12px;
+    text-decoration: none;
+    }
+
+.tag:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.25s;
+}
+.tag:hover:after{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 39px;
+    font-family:Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 2.7rem;
+}
+h2{
+    margin-top: 3rem
+}
+
+h1 span{
+    color: rgb(235, 9, 9);
+}
+h2 span{
+    color:navy;
+
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    
+}
+
+p{
+    font-size: 16px;
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
+
+img{
+    width: 500px;
+    height: 250px;
+    display:flex;
+    float: right;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.train{
+    width: 450px;
+    height: 380px;
+}
+.uncle_text{
+    width: 35%;
+}
+
+
